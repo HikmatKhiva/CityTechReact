@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+    appearance: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.d-flex__simple {
+    display: flex;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}

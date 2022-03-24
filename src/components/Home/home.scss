@@ -1,0 +1,70 @@
+main {
+    background-image: url(../../img/img1.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.main-title {
+    text-align: center;
+    color: #fff;
+}
+
+.main-title p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section-framework {
+    padding: 15px 0;
+}
+
+.section-framework .content {
+    text-align: center;
+    width: 33%;
+}
+
+.section-framework .content img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.section-framework .content-title h1 {
+    font-size: 20px;
+}
+
+.section-framework .content-title p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.for-color__subscribe {
+    background-color: #333;
+    padding: 8px 0;
+    color: #fff;
+    border-bottom: 2px solid #999;
+}
+
+.subscribe-form input {
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    border-radius: 2px;
+    color: #333;
+}
+
+.subscribe-form button {
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: coral;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}

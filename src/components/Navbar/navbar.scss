@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #333;
+    border-bottom: 2px solid coral;
+    padding: 5px 0;
+}
+
+.navbar-logo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-logo .header-logo__color {
+    color: coral;
+    cursor: pointer;
+}
+
+.navbar-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-container ul li {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-container ul li a:hover {
+    color: coral;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
+}
